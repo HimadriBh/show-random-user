@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app{
+  display: flex;
+}
+
+.user-details{
+  flex: 0.7;
+  padding: 1rem;
+}
+
+.sidebar{
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar > a{
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+}
+
+.sidebar > a:hover{
+  background-color: #ddd;
+}
